@@ -20,6 +20,8 @@ jobs:
           channel: 'stable'
       # Get flutter packages
       - run: flutter pub get
+      # Statically analyze the Dart code for any errors.
+      - run: flutter analyze .
       # Build :D
       - run: flutter build aot
 

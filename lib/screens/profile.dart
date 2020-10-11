@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mitienda_userapp/screens/home.dart';
-import 'package:mitienda_userapp/screens/store_home.dart';
 import 'package:mitienda_userapp/widgets/MenuDrawer.dart';
 
 class Profile extends StatelessWidget {
