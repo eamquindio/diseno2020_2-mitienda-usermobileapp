@@ -1,4 +1,4 @@
-library apiConfig;
+library api_config;
 
 const String BASE_URL="https://mitiendaappeam.herokuapp.com";
 const STORES_API = "/api/stores";
